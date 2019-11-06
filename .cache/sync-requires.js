@@ -14,6 +14,7 @@ exports.components = {
   "component---src-pages-landing-js": hot(preferDefault(require("/Users/sanatan/Radisson-Dubai/src/pages/landing.js"))),
   "component---src-pages-login-js": hot(preferDefault(require("/Users/sanatan/Radisson-Dubai/src/pages/login.js"))),
   "component---src-pages-register-js": hot(preferDefault(require("/Users/sanatan/Radisson-Dubai/src/pages/register.js"))),
-  "component---src-pages-custom-js": hot(preferDefault(require("/Users/sanatan/Radisson-Dubai/src/pages/custom.js")))
+  "component---src-pages-custom-js": hot(preferDefault(require("/Users/sanatan/Radisson-Dubai/src/pages/custom.js"))),
+  "component---src-pages-diamond-js": hot(preferDefault(require("/Users/sanatan/Radisson-Dubai/src/pages/diamond.js")))
 }
 

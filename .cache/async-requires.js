@@ -11,6 +11,7 @@ exports.components = {
   "component---src-pages-landing-js": () => import("../src/pages/landing.js" /* webpackChunkName: "component---src-pages-landing-js" */),
   "component---src-pages-login-js": () => import("../src/pages/login.js" /* webpackChunkName: "component---src-pages-login-js" */),
   "component---src-pages-register-js": () => import("../src/pages/register.js" /* webpackChunkName: "component---src-pages-register-js" */),
-  "component---src-pages-custom-js": () => import("../src/pages/custom.js" /* webpackChunkName: "component---src-pages-custom-js" */)
+  "component---src-pages-custom-js": () => import("../src/pages/custom.js" /* webpackChunkName: "component---src-pages-custom-js" */),
+  "component---src-pages-diamond-js": () => import("../src/pages/diamond.js" /* webpackChunkName: "component---src-pages-diamond-js" */)
 }
 
