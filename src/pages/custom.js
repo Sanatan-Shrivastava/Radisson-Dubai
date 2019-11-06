@@ -110,12 +110,7 @@ const Custom = (props) => (
                                 <label style={{color:'#000000'}} htmlFor="bhurj">Trip to Burj Khalifa (INR 10000/day)</label>
                             </div>
                         </div>
-                        <div className="col-6">
-                            <div className="mb-5">
-                                <input type="checkbox" id="demo-copy9" name="demo-copy1" />
-                                <label style={{color:'#000000'}} htmlFor="demo-copy9">Golf (INR 3500/3days)</label>
-                            </div>
-                        </div>
+                       
                        
                         <div className="field half first">
                         <label htmlFor="name">Total</label>
