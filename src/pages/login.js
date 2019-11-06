@@ -10,34 +10,35 @@ import pic10 from '../assets/images/pic10.jpg'
 import pic11 from '../assets/images/radisson.png'
 import pic12 from '../assets/images/dubai.png'
 
+
 const Login = (props) => (
     <GenLayout>
-    <section id="contact">
-    <div className="inner">
-        <section>
-            <form method="post" action="#">
-            <h3 style={{fontFamily:'ZCOOL+XiaoWei'}}>Login</h3>
-                
-                <div className="field half first">
-                    <label htmlFor="email">Email</label>
-                    <input type="text" name="email" id="email" />
-                </div>
-                <div className="field half first">
-                    <label htmlFor="email">Password</label>
-                    <input type="text" name="email" id="email" />
-                </div>
-                <ul className="actions">
-                    <li><input type="submit" value="Login" className="special" /></li>
-                    <li><input type="reset" value="Reset Password" /></li>
-                </ul>
-            </form>
+        <section id="contact">
+            <div className="inner">
+                <section>
+                    <form method="post" action="http://127.0.0.1:300/user/login">
+                        <h3 style={{ fontFamily: 'ZCOOL+XiaoWei' }}>Login</h3>
+
+                        <div className="field half first">
+                            <label htmlFor="email">Email</label>
+                            <input type="text" name="email" id="email" />
+                        </div>
+                        <div className="field half first">
+                            <label htmlFor="email">Password</label>
+                            <input type="text" name="password" id="password" />
+                        </div>
+                        <ul className="actions">
+                            <li><input type="submit" value="Login" className="special" /></li>
+                            <li><input type="reset" value="Reset Password" /></li>
+                        </ul>
+                    </form>
+                </section>
+                <section className="split">
+
+                </section>
+            </div>
         </section>
-        <section className="split">
-        
-        </section>
-    </div>
-</section>
-</GenLayout>
+    </GenLayout>
 )
 
 
