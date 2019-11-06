@@ -13,7 +13,7 @@ import pic12 from '../assets/images/dubai.png'
 const Login = (props) => (
     <GenLayout>
     <Helmet>
-        <title>Landing - Forty by HTML5 UP</title>
+        <title></title>
         <meta name="description" content="Landing Page" />
     </Helmet>
     
@@ -21,11 +21,11 @@ const Login = (props) => (
     <div id="main">
         <section style={{backgroundColor:'black'}}  id="one">
             <div className="inner">
-            <h1>About Us</h1>
+            <h1 style={{fontFamily:'Cinzel Decorative'}}>About Us</h1>
                 <header className="major">
-                    <h2>Serving luxurious legacy since 1975!</h2>
+                    <h2 style={{fontFamily:'Cinzel Decorative'}}>Serving luxurious legacy since 1975!</h2>
                 </header>
-                <p>Radisson Dubai Hotels and Resorts is a well-established luxury hotel company, which has had a distinct impact on the global hospitality market for the past two decades.</p>
+                <p style={{fontFamily:'ZCOOL+XiaoWei'}}>Radisson Dubai Hotels and Resorts is a well-established luxury hotel company, which has had a distinct impact on the global hospitality market for the past two decades.</p>
             </div>
         </section>
         <section id="two" className="spotlights">
@@ -36,7 +36,7 @@ const Login = (props) => (
                 <div className="content">
                     <div className="inner">
                         <header className="major">
-                            <h3>Vibrant and Jubilant</h3>
+                            <h3 style={{fontFamily:'Cinzel Decorative'}}>Vibrant and Jubilant</h3>
                         </header>
                         <p>Radisson Hotels and Resorts is a well-established luxury hotel company, which has had a distinct impact on the global hospitality market for the past two decades. Radisson has transformed the way that luxury is defined as exemplified by its flagship Resorts, The Grand Radisson Dubai.</p>
                         
@@ -50,7 +50,7 @@ const Login = (props) => (
                 <div className="content">
                     <div className="inner">
                         <header className="major">
-                            <h3>Dining – elevating the experience</h3>
+                            <h3 style={{fontFamily:'Cinzel Decorative'}}>Dining – elevating the experience</h3>
                         </header>
                         <p>RD's strategic positioning puts Food & Beverage as a core pillar of the brand and its strongest differentiator. No other hotel in Dubai can compete with Jumeirah for properties or our rich dining experiences and new restaurant concepts will be central to our international development strategy. With the recent appointment of renowned epicure, Micheal Ellis as Chief Culinary Officer, RD's will drive creativity and reinvigorate its dining concepts and gastronomic experiences across its portfolio.</p>
                        
@@ -64,7 +64,7 @@ const Login = (props) => (
                 <div className="content">
                     <div className="inner">
                         <header className="major">
-                            <h3>Service – beyond expectations</h3>
+                            <h3 style={{fontFamily:'Cinzel Decorative'}}>Service – beyond expectations</h3>
                         </header>
                         <p>Placing the guest at the centre of all we do is a top priority. A current focus is to elevate the already very high standards of excellence, which is at the heart of Jumeirah. We are committed to continuous improvement and to ensuring that the Radisson Dubai name is synonymous with great service, high quality and exhilarating experiences. With a renewed determination to lead luxury hospitality, RD has recommitted to deliver personalized guest experiences offering service beyond expectations.</p>
                        
@@ -78,7 +78,7 @@ const Login = (props) => (
                 <div className="content">
                     <div className="inner">
                         <header className="major">
-                            <h3>Product, Architecture and Design – unmatched and redefined</h3>
+                            <h3 style={{fontFamily:'Cinzel Decorative'}}>Product, Architecture and Design – Redefined</h3>
                         </header>
                         <p>R. Dubai serves understated luxury within exquisite spaces that makes a stay truly memorable. Our hotels set new standards within the industry and are creating ideal environments to stir emotion, whether you are in a restaurant, spa, guest room or lobby – wherever you are in a RD hotel you will enjoy harmonious spaces, signature landscapes, and iconic architecture like the RD' Dubai. For every guest, travel is enhanced by both our warm hospitality and the atmosphere and sense of place that being in a RD resort evokes.
 

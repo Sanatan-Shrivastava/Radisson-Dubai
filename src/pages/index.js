@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
-import Layout from '../components/layout'
+import GenLayout from '../components/genlayout'
 import Banner from '../components/Banner'
 
 import pic01 from '../assets/images/diamond.jpg'
@@ -15,7 +15,7 @@ class HomeIndex extends React.Component {
     render() {
 
         return (
-            <Layout>
+            <GenLayout>
                 <Helmet
                     title="Gatsby Starter - Forty"
                     meta={[
@@ -59,7 +59,7 @@ class HomeIndex extends React.Component {
                         </article>
                         
                     </section>
-                    <section style={{height:'110vh',backgroundImage:`url(${pic14})`}} id="two">
+                    <section style={{height:'110vh'}} id="two">
                         <div className="inner">
                             <header style={{marginTop:'10em'}} className="major">
                                 <h2>ATTENTION TO DETAIL</h2>
@@ -83,7 +83,7 @@ class HomeIndex extends React.Component {
                     </section>
                 </div>
 
-            </Layout>
+            </GenLayout>
         )
     }
 }

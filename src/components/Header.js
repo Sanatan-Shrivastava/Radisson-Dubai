@@ -7,6 +7,7 @@ const Header = (props) => (
         <Link to="/" className="logo"><strong>Radisson</strong> <span>Dubai</span></Link>
         <nav>
             <a className="menu-link" onClick={props.onToggleMenu} href="javascript:;">Menu</a>
+            <a href="#" className="button special small">Book Now</a>
         </nav>
     </header>
 )

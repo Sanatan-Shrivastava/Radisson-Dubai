@@ -76,6 +76,7 @@
 	input[type="tel"],
 	input[type="search"],
 	input[type="url"],
+	input[type="number"],
 	select,
 	textarea {
 		@include vendor('appearance', 'none');
@@ -170,6 +171,7 @@
 				text-align: center;
 				top: 0;
 				width: (_size(element-height) * 0.6);
+				border: 'black';
 			}
 		}
 
