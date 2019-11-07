@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import GenLayout from '../components/genlayout'
@@ -10,8 +9,12 @@ import pic10 from '../assets/images/pic10.jpg'
 import pic11 from '../assets/images/radisson.png'
 import pic12 from '../assets/images/dubai.png'
 
-const Custom = (props) => (
-    <GenLayout>
+import React, { Component } from 'react'
+
+export default class Custom extends Component {
+    render() {
+        return (
+            <GenLayout>
     <Helmet>
         <title></title>
         <meta name="description" content="Landing Page" />
@@ -34,11 +37,11 @@ const Custom = (props) => (
                     </div>
                     <div className="field half first">
                         <label htmlFor="email">Starting Date</label>
-                        <input style={{backgroundColor:'#fff'}} type="tel" name="email" id="days" />
+                        <input style={{backgroundColor:'#fff'}} type="tel" name="sdate" id="sdate" />
                     </div>
                     <div className="field half">
                         <label htmlFor="email">Ending Date</label>
-                        <input style={{backgroundColor:'#fff'}} type="tel" name="email" id="days" />
+                        <input style={{backgroundColor:'#fff'}} type="tel" name="edate" id="edate" />
                     </div>
                     
                     <ul className="actions">
@@ -52,62 +55,62 @@ const Custom = (props) => (
                     <div className="contact-method">
                         <div className="col-6">
                             <div className="mb-5">
-                                <input type="checkbox" id="demo-human" name="demo-human" defaultChecked />
-                                <label style={{color:'#000000'}} htmlFor="demo-human">Spa (2000 Rs/Day)</label>
+                                <input type="checkbox" id="spa" name="spa" defaultChecked />
+                                <label style={{color:'#000000'}} htmlFor="spa">Spa (2000 Rs/Day)</label>
                             </div>
                         </div>
                         <div className="col-6">
                             <div className="mb-5">
-                                <input type="checkbox" id="demo-copy" name="demo-copy" />
-                                <label style={{color:'#000000'}} htmlFor="demo-copy">Swimming (Free)</label>
+                                <input type="checkbox" id="swimming" name="swimming" />
+                                <label style={{color:'#000000'}} htmlFor="swimming">Swimming (Free)</label>
                             </div>
                         </div>
                         <div className="col-6">
                             <div className="mb-5">
-                                <input type="checkbox" id="demo-copy1" name="demo-copy1" />
-                                <label style={{color:'#000000'}} htmlFor="demo-copy1">GYM (Membership: INR 8000)</label>
+                                <input type="checkbox" id="gym" name="gym" />
+                                <label style={{color:'#000000'}} htmlFor="gym">GYM (Membership: INR 8000)</label>
                             </div>
                         </div>
                         <div className="col-6">
                             <div className="mb-5">
-                                <input type="checkbox" id="demo-copy2" name="demo-copy1" />
-                                <label style={{color:'#000000'}} htmlFor="demo-copy2">Pool (Card: INR 400/day)</label>
+                                <input type="checkbox" id="pool" name="pool" />
+                                <label style={{color:'#000000'}} htmlFor="pool">Pool (Card: INR 400/day)</label>
                             </div>
                         </div>
                         <div className="col-6">
                             <div className="mb-5">
-                                <input type="checkbox" id="demo-copy3" name="demo-copy1" />
-                                <label style={{color:'#000000'}} htmlFor="demo-copy3">Racquetball (INR 500/day)</label>
+                                <input type="checkbox" id="racquetball" name="racquetball" />
+                                <label style={{color:'#000000'}} htmlFor="racquetball">Racquetball (INR 500/day)</label>
                             </div>
                         </div>
                         <div className="col-6">
                             <div className="mb-5">
-                                <input type="checkbox" id="demo-copy4" name="demo-copy1" />
-                                <label style={{color:'#000000'}} htmlFor="demo-copy4">Casino (INR 4000/day)</label>
+                                <input type="checkbox" id="casino" name="casino" />
+                                <label style={{color:'#000000'}} htmlFor="casino">Casino (INR 4000/day)</label>
                             </div>
                         </div>
                         <div className="col-6">
                             <div className="mb-5">
-                                <input type="checkbox" id="demo-copy5" name="demo-copy1" />
-                                <label style={{color:'#000000'}} htmlFor="demo-copy5">Golf (INR 3500/3days)</label>
+                                <input type="checkbox" id="golf" name="golf" />
+                                <label style={{color:'#000000'}} htmlFor="golf">Golf (INR 3500/3days)</label>
                             </div>
                         </div>
                         <div className="col-6">
                             <div className="mb-5">
-                                <input type="checkbox" id="demo-copy6" name="demo-copy1" />
-                                <label style={{color:'#000000'}} htmlFor="demo-copy6">Shooting (INR 2000/day)</label>
+                                <input type="checkbox" id="shooting" name="shooting" />
+                                <label style={{color:'#000000'}} htmlFor="shooting">Shooting (INR 2000/day)</label>
                             </div>
                         </div>
                         <div className="col-6">
                             <div className="mb-5">
-                                <input type="checkbox" id="demo-copy7" name="demo-copy1" />
-                                <label htmlFor="demo-copy7">Bar (Open Bar)</label>
+                                <input type="checkbox" id="bar" name="bar" />
+                                <label htmlFor="bar">Bar (Open Bar)</label>
                             </div>
                         </div>
                         <div className="col-6">
                             <div className="mb-5">
-                                <input type="checkbox" id="demo-copy8" name="demo-copy1" />
-                                <label style={{color:'#000000'}} htmlFor="demo-copy8">Trip to Burj Khalifa (INR 10000/day)</label>
+                                <input type="checkbox" id="bhurj" name="bhurj" />
+                                <label style={{color:'#000000'}} htmlFor="bhurj">Trip to Burj Khalifa (INR 10000/day)</label>
                             </div>
                         </div>
                        
@@ -122,7 +125,7 @@ const Custom = (props) => (
         </div>
     </section>
 </GenLayout>
-)
+        )
+    }
+}
 
-
-export default Custom

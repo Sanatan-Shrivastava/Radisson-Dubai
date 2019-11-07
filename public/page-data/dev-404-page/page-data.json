@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"componentChunkName":"component---cache-dev-404-page-js","path":"/dev-404-page/","result":{"data":{"allSitePage":{"nodes":[{"path":"/404/"},{"path":"/aboutus/"},{"path":"/elements/"},{"path":"/generic/"},{"path":"/"},{"path":"/landing/"},{"path":"/login/"},{"path":"/register/"},{"path":"/404.html"},{"path":"/custom/"},{"path":"/diamond/"},{"path":"/gold/"},{"path":"/silver/"},{"path":"/platinum/"}]}},"pageContext":{"isCreatedByStatefulCreatePages":true}}}
+=======
+{"componentChunkName":"component---cache-dev-404-page-js","path":"/dev-404-page/","result":{"data":{"allSitePage":{"nodes":[{"path":"/404/"},{"path":"/aboutus/"},{"path":"/custom/"},{"path":"/diamond/"},{"path":"/elements/"},{"path":"/generic/"},{"path":"/"},{"path":"/landing/"},{"path":"/login/"},{"path":"/register/"},{"path":"/404.html"},{"path":"/gold/"}]}},"pageContext":{"isCreatedByStatefulCreatePages":true}}}
+>>>>>>> 987206056278a7461a9d3e731cabfb2cf9379b72

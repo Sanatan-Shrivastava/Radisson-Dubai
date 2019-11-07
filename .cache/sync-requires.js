@@ -5,6 +5,7 @@ const preferDefault = m => m && m.default || m
 
 
 exports.components = {
+<<<<<<< HEAD
   "component---cache-dev-404-page-js": hot(preferDefault(require("/Users/sanatan/Radisson-Dubai/.cache/dev-404-page.js"))),
   "component---src-pages-404-js": hot(preferDefault(require("/Users/sanatan/Radisson-Dubai/src/pages/404.js"))),
   "component---src-pages-aboutus-js": hot(preferDefault(require("/Users/sanatan/Radisson-Dubai/src/pages/aboutus.js"))),
@@ -19,5 +20,19 @@ exports.components = {
   "component---src-pages-gold-js": hot(preferDefault(require("/Users/sanatan/Radisson-Dubai/src/pages/gold.js"))),
   "component---src-pages-silver-js": hot(preferDefault(require("/Users/sanatan/Radisson-Dubai/src/pages/silver.js"))),
   "component---src-pages-platinum-js": hot(preferDefault(require("/Users/sanatan/Radisson-Dubai/src/pages/platinum.js")))
+=======
+  "component---cache-dev-404-page-js": hot(preferDefault(require("F:\\Radisson-Dubai\\.cache\\dev-404-page.js"))),
+  "component---src-pages-404-js": hot(preferDefault(require("F:\\Radisson-Dubai\\src\\pages\\404.js"))),
+  "component---src-pages-aboutus-js": hot(preferDefault(require("F:\\Radisson-Dubai\\src\\pages\\aboutus.js"))),
+  "component---src-pages-custom-js": hot(preferDefault(require("F:\\Radisson-Dubai\\src\\pages\\custom.js"))),
+  "component---src-pages-diamond-js": hot(preferDefault(require("F:\\Radisson-Dubai\\src\\pages\\diamond.js"))),
+  "component---src-pages-elements-js": hot(preferDefault(require("F:\\Radisson-Dubai\\src\\pages\\elements.js"))),
+  "component---src-pages-generic-js": hot(preferDefault(require("F:\\Radisson-Dubai\\src\\pages\\generic.js"))),
+  "component---src-pages-index-js": hot(preferDefault(require("F:\\Radisson-Dubai\\src\\pages\\index.js"))),
+  "component---src-pages-landing-js": hot(preferDefault(require("F:\\Radisson-Dubai\\src\\pages\\landing.js"))),
+  "component---src-pages-login-js": hot(preferDefault(require("F:\\Radisson-Dubai\\src\\pages\\login.js"))),
+  "component---src-pages-register-js": hot(preferDefault(require("F:\\Radisson-Dubai\\src\\pages\\register.js"))),
+  "component---src-pages-gold-js": hot(preferDefault(require("F:\\Radisson-Dubai\\src\\pages\\gold.js")))
+>>>>>>> 987206056278a7461a9d3e731cabfb2cf9379b72
 }
 
