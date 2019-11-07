@@ -34,28 +34,28 @@ class HomeIndex extends React.Component {
                                 <h3>DIAMOND</h3>
                                 <p>Feel like a king, when you own the world of Dubai with our most premium Diamond Pack.</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/diamond" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
                                 <h3>PLATINUM</h3>
                                 <p>If not a king, then be the advisor. Live almost like a king, with our next on the range, Platinum Pack.</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/platinum" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
                                 <h3>SILVER</h3>
                                 <p>Enable yourself to live the most of the Dubai with keeping your budget within your limits.</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/silver" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
                                 <h3>GOLD</h3>
                                 <p>Best mediocre price ranges, with best amenities in Dubai only with GOLD package by Radisson Dubai.</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/gold" className="link primary"></Link>
                         </article>
                         
                     </section>
