@@ -11,7 +11,7 @@ const BanPages = (props) => (
                 <p>Planning your most luxurious stays</p>
                 <ul className="actions">
                     <li><a href="#one" className="button next scrolly">Details</a></li>
-                    <li><a href="#two" className="button next scrolly">Book Now</a></li>
+                    <li><a href="/bookdiamond" className="button next scrolly">Book Now</a></li>
                     <li><a href="#three" className="button next scrolly">Gallery</a></li>
                 </ul>
             </div>

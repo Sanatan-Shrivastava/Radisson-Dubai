@@ -1,61 +1,5 @@
 import { Link } from 'gatsby'
 import GenLayout from '../components/genlayout'
-<<<<<<< HEAD
-
-
-const Landing = (props) => (
-    <GenLayout>
-    <section id="contact">
-    <div className="inner">
-        <section>
-            <form>
-            <h3 style={{fontFamily:'ZCOOL+XiaoWei'}}>Please Register</h3>
-                <div className="field half first">
-                    <label htmlFor="name">First Name</label>
-                    <input type="text" name="name" id="name" />
-                </div>
-                <div className="field half">
-                    <label htmlFor="name">Last Name</label>
-                    <input type="text" name="name" id="name" />
-                </div>
-                <div className="field half first">
-                    <label htmlFor="email">Email</label>
-                    <input type="text" name="email" id="email" />
-                </div>
-                <div className="field half">
-                    <label htmlFor="tel">Phone</label>
-                    <input type="tel" name="phone" id="phone" />
-                </div>
-                <div className="field half first">
-                    <label htmlFor="phone">Gender</label>
-                    <input type="tel" name="phone" id="phone" />
-                </div>
-                <div className="field half">
-                    <label htmlFor="tel">Age</label>
-                    <input type="tel" name="age" id="age" />
-                </div> 
-                <div className="field half first">
-                    <label htmlFor="email">Password</label>
-                    <input type="text" name="pasword" id="email" />
-                </div>
-                <div className="field half">
-                    <label htmlFor="email">Confirm Password</label>
-                    <input type="text" name="email" id="email" />
-                </div>
-                <ul className="actions">
-                    <li><input type="submit" value="Submit" className="special" /></li>
-                    <li><input type="reset" value="Clear" /></li>
-                </ul>
-            </form>
-        </section>
-        <section className="split">
-        
-        </section>
-    </div>
-</section>
-</GenLayout>
-)
-=======
 import BannerLanding from '../components/BannerLanding'
 import axios from 'axios'
 import Cookie from 'js-cookie'
@@ -83,6 +27,7 @@ export default class Landing extends Component {
         this.cnfpasswordHandler = this.cnfpasswordHandler.bind(this);
         this.phoneHandler = this.phoneHandler.bind(this);
         this.genderHandler = this.genderHandler.bind(this);
+        this.onChangeFile = this.onChangeFile.bind(this);
     }
     nameHandler(event) {
         this.setState({ name: event.target.value });
@@ -105,7 +50,6 @@ export default class Landing extends Component {
     cnfpasswordHandler(event) {
         this.setState({ cnfpassword: event.target.value });
     }
->>>>>>> 54d9dba6cac6d6cef6560cedf17f12ceec28dbdb
 
     submitHandler(event) {
         event.preventDefault();
@@ -181,6 +125,18 @@ export default class Landing extends Component {
                                     <label htmlFor="email">Confirm Password</label>
                                     <input type="text" name="cnfpassword" id="cnfpassword" onChange={this.cnfpasswordHandler} />
                                 </div>
+                                <input id="myInput"
+                                type="file"
+                                ref={(ref) => this.upload = ref}
+                                style={{display: 'none'}}
+                                onChange={this.onChangeFile.bind(this)}
+                                />
+                                <button className="button icon fa-download"
+                                    label="Open File"
+                                    primary={false}
+                                    onClick={()=>{this.upload.click()}}
+                                >Upload</button>
+                                
                                 <ul className="actions">
                                     <li><input type="submit" value="Submit" className="special" /></li>
                                     <li><input type="reset" value="Clear" /></li>
@@ -195,5 +151,15 @@ export default class Landing extends Component {
             </GenLayout>
         )
     }
+    onChangeFile(event) {
+        event.stopPropagation();
+        event.preventDefault();
+        var file = event.target.files[0];
+        console.log(file);
+        this.setState({file}); /// if you want to upload latter
+    }
 }
+
+
+
 

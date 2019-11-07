@@ -91,7 +91,7 @@ export default class custom extends Component {
     };
     let RAND_ID = Math.random().toString(36).substring(7);
     
-    var package= {
+    var packages= {
             package_id:RAND_ID,
             package_type:"Custom",
             facilities_id:RAND_ID,
@@ -119,7 +119,7 @@ export default class custom extends Component {
     }
     axios.post('http://localhost:3000/package/',{
         // Need to send token here
-        'package':package,
+        'package':packages,
         'facilities':facilities
     } ,config)
       .then(function (response) {
@@ -148,7 +148,7 @@ export default class custom extends Component {
           <div className="inner">
             <section>
               <h3 style={{ fontFamily: "Cinzel Decorative" }}>
-                Plan your Stay the way you want to
+                Plan your Stay the way you want to!
               </h3>
               <form method="post" action="#">
                 <div className="field half first">
