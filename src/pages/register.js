@@ -1,21 +1,14 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import Helmet from 'react-helmet'
 import GenLayout from '../components/genlayout'
-import BannerLanding from '../components/BannerLanding'
 
-import pic08 from '../assets/images/pic08.jpg'
-import pic09 from '../assets/images/pic09.jpg'
-import pic10 from '../assets/images/pic10.jpg'
-import pic11 from '../assets/images/radisson.png'
-import pic12 from '../assets/images/dubai.png'
 
 const Landing = (props) => (
     <GenLayout>
     <section id="contact">
     <div className="inner">
         <section>
-            <form method="post" action="#">
+            <form>
             <h3 style={{fontFamily:'ZCOOL+XiaoWei'}}>Please Register</h3>
                 <div className="field half first">
                     <label htmlFor="name">First Name</label>
@@ -43,7 +36,7 @@ const Landing = (props) => (
                 </div> 
                 <div className="field half first">
                     <label htmlFor="email">Password</label>
-                    <input type="text" name="email" id="email" />
+                    <input type="text" name="pasword" id="email" />
                 </div>
                 <div className="field half">
                     <label htmlFor="email">Confirm Password</label>

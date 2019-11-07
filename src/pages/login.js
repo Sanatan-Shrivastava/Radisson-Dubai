@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Link } from 'gatsby'
 import GenLayout from '../components/genlayout'
 import Cookie from "js-cookie"
 import axios from 'axios'
