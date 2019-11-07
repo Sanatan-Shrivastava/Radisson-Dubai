@@ -16,6 +16,8 @@ exports.components = {
   "component---src-pages-register-js": hot(preferDefault(require("/Users/sanatan/Radisson-Dubai/src/pages/register.js"))),
   "component---src-pages-custom-js": hot(preferDefault(require("/Users/sanatan/Radisson-Dubai/src/pages/custom.js"))),
   "component---src-pages-diamond-js": hot(preferDefault(require("/Users/sanatan/Radisson-Dubai/src/pages/diamond.js"))),
-  "component---src-pages-gold-js": hot(preferDefault(require("/Users/sanatan/Radisson-Dubai/src/pages/gold.js")))
+  "component---src-pages-gold-js": hot(preferDefault(require("/Users/sanatan/Radisson-Dubai/src/pages/gold.js"))),
+  "component---src-pages-silver-js": hot(preferDefault(require("/Users/sanatan/Radisson-Dubai/src/pages/silver.js"))),
+  "component---src-pages-platinum-js": hot(preferDefault(require("/Users/sanatan/Radisson-Dubai/src/pages/platinum.js")))
 }
 

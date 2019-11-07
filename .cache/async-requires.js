@@ -13,6 +13,8 @@ exports.components = {
   "component---src-pages-register-js": () => import("../src/pages/register.js" /* webpackChunkName: "component---src-pages-register-js" */),
   "component---src-pages-custom-js": () => import("../src/pages/custom.js" /* webpackChunkName: "component---src-pages-custom-js" */),
   "component---src-pages-diamond-js": () => import("../src/pages/diamond.js" /* webpackChunkName: "component---src-pages-diamond-js" */),
-  "component---src-pages-gold-js": () => import("../src/pages/gold.js" /* webpackChunkName: "component---src-pages-gold-js" */)
+  "component---src-pages-gold-js": () => import("../src/pages/gold.js" /* webpackChunkName: "component---src-pages-gold-js" */),
+  "component---src-pages-silver-js": () => import("../src/pages/silver.js" /* webpackChunkName: "component---src-pages-silver-js" */),
+  "component---src-pages-platinum-js": () => import("../src/pages/platinum.js" /* webpackChunkName: "component---src-pages-platinum-js" */)
 }
 

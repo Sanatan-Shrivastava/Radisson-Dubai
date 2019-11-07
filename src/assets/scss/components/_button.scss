@@ -71,7 +71,7 @@
 		&.next {
 			padding-right: 4.5em;
 			position: relative;
-			color: #d4af37;
+			
 
 			&:before, &:after {
 				@include vendor('transition', 'opacity #{_duration(transition)} ease-in-out');
