@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import GenLayout from '../components/genlayout'
@@ -10,8 +9,12 @@ import pic10 from '../assets/images/pic10.jpg'
 import pic11 from '../assets/images/radisson.png'
 import pic12 from '../assets/images/dubai.png'
 
-const Custom = (props) => (
-    <GenLayout>
+import React, { Component } from 'react'
+
+export default class Custom extends Component {
+    render() {
+        return (
+            <GenLayout>
     <Helmet>
         <title></title>
         <meta name="description" content="Landing Page" />
@@ -122,7 +125,7 @@ const Custom = (props) => (
         </div>
     </section>
 </GenLayout>
-)
+        )
+    }
+}
 
-
-export default Custom
