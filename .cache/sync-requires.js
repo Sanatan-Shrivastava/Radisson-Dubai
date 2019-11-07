@@ -15,6 +15,7 @@ exports.components = {
   "component---src-pages-index-js": hot(preferDefault(require("F:\\Radisson-Dubai\\src\\pages\\index.js"))),
   "component---src-pages-landing-js": hot(preferDefault(require("F:\\Radisson-Dubai\\src\\pages\\landing.js"))),
   "component---src-pages-login-js": hot(preferDefault(require("F:\\Radisson-Dubai\\src\\pages\\login.js"))),
-  "component---src-pages-register-js": hot(preferDefault(require("F:\\Radisson-Dubai\\src\\pages\\register.js")))
+  "component---src-pages-register-js": hot(preferDefault(require("F:\\Radisson-Dubai\\src\\pages\\register.js"))),
+  "component---src-pages-gold-js": hot(preferDefault(require("F:\\Radisson-Dubai\\src\\pages\\gold.js")))
 }
 

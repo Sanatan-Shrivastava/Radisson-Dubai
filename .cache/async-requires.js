@@ -12,6 +12,7 @@ exports.components = {
   "component---src-pages-index-js": () => import("../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-landing-js": () => import("../src/pages/landing.js" /* webpackChunkName: "component---src-pages-landing-js" */),
   "component---src-pages-login-js": () => import("../src/pages/login.js" /* webpackChunkName: "component---src-pages-login-js" */),
-  "component---src-pages-register-js": () => import("../src/pages/register.js" /* webpackChunkName: "component---src-pages-register-js" */)
+  "component---src-pages-register-js": () => import("../src/pages/register.js" /* webpackChunkName: "component---src-pages-register-js" */),
+  "component---src-pages-gold-js": () => import("../src/pages/gold.js" /* webpackChunkName: "component---src-pages-gold-js" */)
 }
 
