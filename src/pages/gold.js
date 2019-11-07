@@ -1,5 +1,4 @@
-import React from 'react'
-// import { Link } from 'gatsby'
+import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import GenLayout from '../components/genlayout'
 // import BannerLanding from '../components/BannerLanding'
@@ -10,9 +9,12 @@ import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
 // import pic11 from '../assets/images/gold1.jpg'
 
+import React, { Component } from 'react'
 
-const Diamond = (props) => (
-    <GenLayout>
+export default class Gold extends Component {
+    render() {
+        return (
+            <GenLayout>
     <Helmet
         title="Gatsby Starter - Forty"
         meta={[
@@ -87,7 +89,7 @@ const Diamond = (props) => (
                 • Remote controlled environment including curtains, TV, music and lights and a private all in one printer, copier, scanner and fax<br></br>
                 • Selection of 9 types of pillows, eiderdown duvets, Egyptian cotton linen and a bed personalised for your specific posture preferences<br></br>
                 <br></br>
-                <center><a href="#two" className="button next scrolly">Book Now</a></center>
+                <center><Link to="/package-book" className="button next scrolly">Book Now</Link></center>
                 </p></center>  
                 </section>  
                 <section style={{background:'linear-gradient(#7c6f55,#000)'}} id="three" className=""> 
@@ -112,7 +114,6 @@ const Diamond = (props) => (
     </div>
 
 </GenLayout>
-)
-
-
-export default Diamond
+        )
+    }
+}

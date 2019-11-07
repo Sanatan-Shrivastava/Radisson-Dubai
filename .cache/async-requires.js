@@ -9,12 +9,13 @@ exports.components = {
   "component---src-pages-diamond-js": () => import("../src/pages/diamond.js" /* webpackChunkName: "component---src-pages-diamond-js" */),
   "component---src-pages-elements-js": () => import("../src/pages/elements.js" /* webpackChunkName: "component---src-pages-elements-js" */),
   "component---src-pages-generic-js": () => import("../src/pages/generic.js" /* webpackChunkName: "component---src-pages-generic-js" */),
+  "component---src-pages-gold-js": () => import("../src/pages/gold.js" /* webpackChunkName: "component---src-pages-gold-js" */),
   "component---src-pages-index-js": () => import("../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-landing-js": () => import("../src/pages/landing.js" /* webpackChunkName: "component---src-pages-landing-js" */),
   "component---src-pages-login-js": () => import("../src/pages/login.js" /* webpackChunkName: "component---src-pages-login-js" */),
-  "component---src-pages-register-js": () => import("../src/pages/register.js" /* webpackChunkName: "component---src-pages-register-js" */),
-  "component---src-pages-gold-js": () => import("../src/pages/gold.js" /* webpackChunkName: "component---src-pages-gold-js" */),
   "component---src-pages-platinum-js": () => import("../src/pages/platinum.js" /* webpackChunkName: "component---src-pages-platinum-js" */),
-  "component---src-pages-silver-js": () => import("../src/pages/silver.js" /* webpackChunkName: "component---src-pages-silver-js" */)
+  "component---src-pages-register-js": () => import("../src/pages/register.js" /* webpackChunkName: "component---src-pages-register-js" */),
+  "component---src-pages-silver-js": () => import("../src/pages/silver.js" /* webpackChunkName: "component---src-pages-silver-js" */),
+  "component---src-pages-package-book-js": () => import("../src/pages/package-book.js" /* webpackChunkName: "component---src-pages-package-book-js" */)
 }
 

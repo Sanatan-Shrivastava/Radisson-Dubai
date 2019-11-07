@@ -91,7 +91,7 @@ export default class custom extends Component {
     };
     let RAND_ID = Math.random().toString(36).substring(7);
     
-    var package= {
+    var pkg= {
             package_id:RAND_ID,
             package_type:"Custom",
             facilities_id:RAND_ID,
@@ -119,7 +119,7 @@ export default class custom extends Component {
     }
     axios.post('http://localhost:3000/package/',{
         // Need to send token here
-        'package':package,
+        'package':pkg,
         'facilities':facilities
     } ,config)
       .then(function (response) {
