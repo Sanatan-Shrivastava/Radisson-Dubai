@@ -1,4 +1,5 @@
 var plugins = [{
+<<<<<<< HEAD
       plugin: require('/Users/sanatan/Radisson-Dubai/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
@@ -6,6 +7,15 @@ var plugins = [{
       options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/assets/images/website-icon.png"},
     },{
       plugin: require('/Users/sanatan/Radisson-Dubai/node_modules/gatsby-plugin-offline/gatsby-ssr'),
+=======
+      plugin: require('C:/Users/ASUS/Desktop/Radisson-Dubai/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
+      plugin: require('C:/Users/ASUS/Desktop/Radisson-Dubai/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/assets/images/website-icon.png"},
+    },{
+      plugin: require('C:/Users/ASUS/Desktop/Radisson-Dubai/node_modules/gatsby-plugin-offline/gatsby-ssr'),
+>>>>>>> a298e3d2cf9b4625472fd443bbd7bf9112423fe4
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
